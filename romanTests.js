@@ -28,6 +28,26 @@ describe("Fizz Buzz Tests", function () {
         done();
     });
     
+    it("", function(done) {
+        checkResult(50 ,"L","Should be L")
+        done();
+    });
+    
+    it("", function(done) {
+        checkResult(100 ,"C","Should be C")
+        done();
+    });
+    
+      it("", function(done) {
+        checkResult(999 ,"IM","Should be IM")
+        done();
+    });
+        
+    it("", function(done) {
+        checkResult(1000 ,"M","Should be M")
+        done();
+    
+    });
     function checkResult(input,expected,testDescription){
         var result = new Roman().convertToRoman(input)
         console.log("The input was " + input + " The output was " + result);

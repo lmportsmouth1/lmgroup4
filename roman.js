@@ -8,7 +8,7 @@ Roman.prototype.convertToRoman = function (number) {
         return 'I';
     }
     
-      if (number == 5) {
+    if (number == 5) {
         return 'V';
     }
     
@@ -18,6 +18,21 @@ Roman.prototype.convertToRoman = function (number) {
  
     if (number == 40){
         return 'XL';
+    }
+   
+    if (number == 50){
+        return 'L';
+    }
+    
+    if (number == 100){
+        return 'C';
+    }
+       if (number == 999){
+        return 'IM';
+    }
+    
+     if (number == 1000){
+        return 'M';
     }
 } 
 
