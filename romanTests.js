@@ -66,7 +66,7 @@ describe("Fizz Buzz Tests", function () {
     
     function checkResultAlgo(input,expected,testDescription){
         var roman = new Roman(logger);
-        var result = roman.convertToRoman2(input)
+        var result = roman.convertToRoman(input)
         console.log("The input was " + input + " The output was " + result);
         assert(result==expected,testDescription)
     }    
